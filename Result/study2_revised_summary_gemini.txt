@@ -1,0 +1,29 @@
+Study 2 Revision (Gemini) — Summary
+======================================================================
+
+Model: models/gemini-embedding-001
+Anchor sets: ['essence_vs_activity', 'object_vs_event', 'definition_vs_change']
+Total stimuli: 126
+Sign agreement: 82/126 (65.1%)
+
+MEAN E-P GAP BY FORM × VISIBILITY (averaged over 3 anchor sets)
+----------------------------------------------------------------------
+Form                   Visibility   Mean E-P    n
+agentive               invisible     -0.0031    1
+agentive               visible       -0.0238    5
+copula_X_is_Y          invisible     +0.0097    6
+copula_X_is_Y          visible       -0.0222    6
+copula_means           invisible     +0.0120    6
+copula_means           visible       -0.0118    6
+copula_what_is         invisible     +0.0146    6
+copula_what_is         visible       -0.0188    6
+noun_minimal           invisible     -0.0036    6
+noun_minimal           visible       -0.0349    6
+noun_with_act          visible       -0.0329    6
+noun_with_feeling      invisible     -0.0073    6
+noun_with_word         invisible     +0.0078    6
+noun_with_word         visible       -0.0145    6
+progressive            invisible     -0.0029   12
+progressive            visible       -0.0273   12
+verb                   invisible     -0.0089   12
+verb                   visible       -0.0280   12

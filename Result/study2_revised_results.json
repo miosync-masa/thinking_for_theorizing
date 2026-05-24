@@ -1,0 +1,3236 @@
+{
+  "model": "text-embedding-3-large",
+  "anchor_sets": [
+    "essence_vs_activity",
+    "object_vs_event",
+    "definition_vs_change"
+  ],
+  "n_stimuli": 126,
+  "stimulus_results": [
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "to love",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.33209642944931067,
+          "process_sim": 0.27250562891468705,
+          "gap": 0.05959080053462362
+        },
+        "object_vs_event": {
+          "entity_sim": 0.28355631660191155,
+          "process_sim": 0.2576221945244081,
+          "gap": 0.025934122077503452
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.20727827789242068,
+          "process_sim": 0.25643002383211827,
+          "gap": -0.049151745939697594
+        }
+      },
+      "mean_gap": 0.01212439222414316,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "people loving",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.28931909809410394,
+          "process_sim": 0.38468506855991774,
+          "gap": -0.0953659704658138
+        },
+        "object_vs_event": {
+          "entity_sim": 0.25745544463126124,
+          "process_sim": 0.27043295496676717,
+          "gap": -0.012977510335505926
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.19726316640386873,
+          "process_sim": 0.2952783320746639,
+          "gap": -0.09801516567079518
+        }
+      },
+      "mean_gap": -0.06878621549070497,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "loving",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3521854368017791,
+          "process_sim": 0.3695517613477185,
+          "gap": -0.017366324545939393
+        },
+        "object_vs_event": {
+          "entity_sim": 0.29480058585281244,
+          "process_sim": 0.25864909435347244,
+          "gap": 0.036151491499339994
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2176204247457669,
+          "process_sim": 0.30756810924313643,
+          "gap": -0.08994768449736953
+        }
+      },
+      "mean_gap": -0.023720839181322978,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "loving something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.4019888176600138,
+          "process_sim": 0.37906693725175694,
+          "gap": 0.02292188040825688
+        },
+        "object_vs_event": {
+          "entity_sim": 0.36317930784344604,
+          "process_sim": 0.2927621063460058,
+          "gap": 0.07041720149744024
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3064386409388277,
+          "process_sim": 0.2889709250749267,
+          "gap": 0.017467715863901
+        }
+      },
+      "mean_gap": 0.036935599256532704,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "agentive",
+      "phrase": "a lover of music",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.26532038705546607,
+          "process_sim": 0.2528822700158862,
+          "gap": 0.012438117039579866
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2546885040903351,
+          "process_sim": 0.2107068279532876,
+          "gap": 0.04398167613704751
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.21951714499596292,
+          "process_sim": 0.22693778155689184,
+          "gap": -0.007420636560928923
+        }
+      },
+      "mean_gap": 0.016333052205232818,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "noun_minimal",
+      "phrase": "love",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.33207981950541343,
+          "process_sim": 0.30489112839193855,
+          "gap": 0.027188691113474883
+        },
+        "object_vs_event": {
+          "entity_sim": 0.28725286348847495,
+          "process_sim": 0.28538673049075086,
+          "gap": 0.0018661329977240904
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.19606167490731655,
+          "process_sim": 0.31679955893282996,
+          "gap": -0.12073788402551341
+        }
+      },
+      "mean_gap": -0.030561019971438147,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "noun_with_word",
+      "phrase": "the word love",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3204379167673435,
+          "process_sim": 0.2595419175778218,
+          "gap": 0.06089599918952171
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2930521455201456,
+          "process_sim": 0.2511186653062197,
+          "gap": 0.0419334802139259
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2911289012573162,
+          "process_sim": 0.2501699395296979,
+          "gap": 0.040958961727618315
+        }
+      },
+      "mean_gap": 0.04792948037702197,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "noun_with_feeling",
+      "phrase": "the feeling of love",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3406974731350054,
+          "process_sim": 0.2594969252512242,
+          "gap": 0.08120054788378123
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2362794828223189,
+          "process_sim": 0.2408992577700975,
+          "gap": -0.004619774947778599
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.20287483961020406,
+          "process_sim": 0.24972778110370797,
+          "gap": -0.04685294149350391
+        }
+      },
+      "mean_gap": 0.009909277147499571,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "copula_what_is",
+      "phrase": "what is love",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2915922224395966,
+          "process_sim": 0.21473814630316648,
+          "gap": 0.07685407613643011
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2356935910233632,
+          "process_sim": 0.20121093052756786,
+          "gap": 0.03448266049579535
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.21298319567199916,
+          "process_sim": 0.2095836209757011,
+          "gap": 0.0033995746962980633
+        }
+      },
+      "mean_gap": 0.03824543710950784,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "copula_X_is_Y",
+      "phrase": "love is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.42255020726654113,
+          "process_sim": 0.3282802250052982,
+          "gap": 0.09426998226124295
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3717813467919793,
+          "process_sim": 0.3310054788543594,
+          "gap": 0.04077586793761989
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3020343130806164,
+          "process_sim": 0.3306326337952729,
+          "gap": -0.02859832071465651
+        }
+      },
+      "mean_gap": 0.035482509828068776,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "love",
+      "visibility_class": "invisible",
+      "form": "copula_means",
+      "phrase": "love means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.294876597251509,
+          "process_sim": 0.25489493556794873,
+          "gap": 0.039981661683560266
+        },
+        "object_vs_event": {
+          "entity_sim": 0.23486902469672943,
+          "process_sim": 0.23260113861764187,
+          "gap": 0.0022678860790875666
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.25837850752750546,
+          "process_sim": 0.2514506768324327,
+          "gap": 0.006927830695072745
+        }
+      },
+      "mean_gap": 0.016392459485906858,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "to be conscious of something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3307185671802647,
+          "process_sim": 0.3540002054797478,
+          "gap": -0.0232816382994831
+        },
+        "object_vs_event": {
+          "entity_sim": 0.31844129249605524,
+          "process_sim": 0.33562460068034267,
+          "gap": -0.017183308184287427
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.31986502206990475,
+          "process_sim": 0.2708618316297505,
+          "gap": 0.04900319044015422
+        }
+      },
+      "mean_gap": 0.0028460813187945653,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "someone being conscious",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3838453218353174,
+          "process_sim": 0.46069086260656705,
+          "gap": -0.07684554077124967
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3691319818082759,
+          "process_sim": 0.36163395757669015,
+          "gap": 0.007498024231585743
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3365616595825778,
+          "process_sim": 0.35069604372305224,
+          "gap": -0.014134384140474465
+        }
+      },
+      "mean_gap": -0.027827300226712797,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "being conscious",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.37534087767164176,
+          "process_sim": 0.38192957504780023,
+          "gap": -0.00658869737615847
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3383011222139838,
+          "process_sim": 0.32515655768844204,
+          "gap": 0.013144564525541746
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.29994914177205606,
+          "process_sim": 0.34457351922866425,
+          "gap": -0.04462437745660819
+        }
+      },
+      "mean_gap": -0.012689503435741637,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "being conscious naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.4007970977094461,
+          "process_sim": 0.30376776625434954,
+          "gap": 0.09702933145509657
+        },
+        "object_vs_event": {
+          "entity_sim": 0.28595417159508585,
+          "process_sim": 0.29460137500304845,
+          "gap": -0.0086472034079626
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.21845403011967646,
+          "process_sim": 0.32309160382677304,
+          "gap": -0.10463757370709659
+        }
+      },
+      "mean_gap": -0.005418481886654207,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "noun_minimal",
+      "phrase": "consciousness",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.37130396059674287,
+          "process_sim": 0.30431027592368803,
+          "gap": 0.06699368467305483
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3453887691413707,
+          "process_sim": 0.31962081857936747,
+          "gap": 0.025767950562003206
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.287525269618159,
+          "process_sim": 0.33848871848180706,
+          "gap": -0.050963448863648064
+        }
+      },
+      "mean_gap": 0.013932728790469992,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "noun_with_word",
+      "phrase": "the word consciousness",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.32775931895934596,
+          "process_sim": 0.26128434239164694,
+          "gap": 0.06647497656769902
+        },
+        "object_vs_event": {
+          "entity_sim": 0.28514075532482297,
+          "process_sim": 0.2525561358662263,
+          "gap": 0.0325846194585967
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3270400533057547,
+          "process_sim": 0.2649922119291576,
+          "gap": 0.06204784137659708
+        }
+      },
+      "mean_gap": 0.0537024791342976,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "noun_with_feeling",
+      "phrase": "the feeling of consciousness",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3923668677965242,
+          "process_sim": 0.30726029345085426,
+          "gap": 0.08510657434566993
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3061539840047245,
+          "process_sim": 0.2999298279134843,
+          "gap": 0.006224156091240163
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.28401656171484,
+          "process_sim": 0.30689690546329484,
+          "gap": -0.022880343748454823
+        }
+      },
+      "mean_gap": 0.02281679556281842,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "copula_what_is",
+      "phrase": "what is consciousness",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.29211209753253414,
+          "process_sim": 0.2105565011940191,
+          "gap": 0.08155559633851503
+        },
+        "object_vs_event": {
+          "entity_sim": 0.21820875205894824,
+          "process_sim": 0.19195014296667437,
+          "gap": 0.02625860909227387
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.22664618115717972,
+          "process_sim": 0.22255546282625444,
+          "gap": 0.00409071833092528
+        }
+      },
+      "mean_gap": 0.03730164125390473,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "copula_X_is_Y",
+      "phrase": "consciousness is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.44516578923062033,
+          "process_sim": 0.3500529071506836,
+          "gap": 0.09511288207993673
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3929574609579629,
+          "process_sim": 0.33269893248559046,
+          "gap": 0.06025852847237245
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.36413919467516553,
+          "process_sim": 0.3464528068595251,
+          "gap": 0.017686387815640414
+        }
+      },
+      "mean_gap": 0.05768593278931653,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "consciousness",
+      "visibility_class": "invisible",
+      "form": "copula_means",
+      "phrase": "consciousness means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3192032000131445,
+          "process_sim": 0.2552949279363678,
+          "gap": 0.06390827207677668
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2573545048422329,
+          "process_sim": 0.23824394194244913,
+          "gap": 0.019110562899783745
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3050571578877018,
+          "process_sim": 0.2582160675443163,
+          "gap": 0.046841090343385516
+        }
+      },
+      "mean_gap": 0.043286641773315315,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "to tell the truth",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.24752719932428038,
+          "process_sim": 0.2195515047481695,
+          "gap": 0.027975694576110877
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2038525785548453,
+          "process_sim": 0.21416730250981741,
+          "gap": -0.010314723954972127
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.1641133364937026,
+          "process_sim": 0.1676411584880196,
+          "gap": -0.003527821994317004
+        }
+      },
+      "mean_gap": 0.004711049542273915,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "someone being truthful",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3963705886048364,
+          "process_sim": 0.39274831595736454,
+          "gap": 0.0036222726474718914
+        },
+        "object_vs_event": {
+          "entity_sim": 0.34485988879591967,
+          "process_sim": 0.3224695707309423,
+          "gap": 0.022390318064977377
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3055588082643291,
+          "process_sim": 0.2730867406786487,
+          "gap": 0.032472067585680386
+        }
+      },
+      "mean_gap": 0.01949488609937655,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "being truthful",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.36013568442152993,
+          "process_sim": 0.30954837794278806,
+          "gap": 0.05058730647874188
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2772349911880245,
+          "process_sim": 0.25095642481837677,
+          "gap": 0.02627856636964776
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2252704440523043,
+          "process_sim": 0.24465791366727532,
+          "gap": -0.019387469614971037
+        }
+      },
+      "mean_gap": 0.019159467744472868,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "being truthful naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.4112650326465984,
+          "process_sim": 0.2658563946637763,
+          "gap": 0.1454086379828221
+        },
+        "object_vs_event": {
+          "entity_sim": 0.25356000211824276,
+          "process_sim": 0.2344455692844659,
+          "gap": 0.019114432833776868
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.18689120903611298,
+          "process_sim": 0.2564956097558809,
+          "gap": -0.06960440071976795
+        }
+      },
+      "mean_gap": 0.03163955669894367,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "noun_minimal",
+      "phrase": "truth",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.38861223575767717,
+          "process_sim": 0.2728840358079782,
+          "gap": 0.11572819994969896
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3519105522829058,
+          "process_sim": 0.30462716002151313,
+          "gap": 0.047283392261392665
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.251333000310082,
+          "process_sim": 0.3007877602910021,
+          "gap": -0.04945475998092014
+        }
+      },
+      "mean_gap": 0.037852277410057165,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "noun_with_word",
+      "phrase": "the word truth",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3812370820028063,
+          "process_sim": 0.2620378199372741,
+          "gap": 0.11919926206553222
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3448257614302503,
+          "process_sim": 0.2751943095730966,
+          "gap": 0.06963145185715369
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3358917300426258,
+          "process_sim": 0.24543922382206335,
+          "gap": 0.09045250622056245
+        }
+      },
+      "mean_gap": 0.09309440671441611,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "noun_with_feeling",
+      "phrase": "the feeling of truth",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.45215035781618307,
+          "process_sim": 0.26946235170914407,
+          "gap": 0.182688006107039
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3183493732847531,
+          "process_sim": 0.2956477235841071,
+          "gap": 0.022701649700645976
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.28779122063572943,
+          "process_sim": 0.27022432115813855,
+          "gap": 0.01756689947759088
+        }
+      },
+      "mean_gap": 0.07431885176175862,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "copula_what_is",
+      "phrase": "what is truth",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3747743639711481,
+          "process_sim": 0.24823870971108017,
+          "gap": 0.12653565426006794
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3023802669842754,
+          "process_sim": 0.2453597216171125,
+          "gap": 0.05702054536716289
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.272251895805662,
+          "process_sim": 0.22973485651359396,
+          "gap": 0.04251703929206804
+        }
+      },
+      "mean_gap": 0.07535774630643295,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "copula_X_is_Y",
+      "phrase": "truth is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.47256434605411524,
+          "process_sim": 0.32722493857831225,
+          "gap": 0.14533940747580298
+        },
+        "object_vs_event": {
+          "entity_sim": 0.43351634404738454,
+          "process_sim": 0.3415641604420603,
+          "gap": 0.09195218360532426
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3728816632984376,
+          "process_sim": 0.29960781504600414,
+          "gap": 0.07327384825243344
+        }
+      },
+      "mean_gap": 0.1035218131111869,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "truth",
+      "visibility_class": "invisible",
+      "form": "copula_means",
+      "phrase": "truth means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.395142316534132,
+          "process_sim": 0.2613762745333532,
+          "gap": 0.1337660420007788
+        },
+        "object_vs_event": {
+          "entity_sim": 0.33950913029221846,
+          "process_sim": 0.28621450801003945,
+          "gap": 0.053294622282179016
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.30607949204446594,
+          "process_sim": 0.2692852401538447,
+          "gap": 0.03679425189062124
+        }
+      },
+      "mean_gap": 0.07461830539119302,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "to be beautiful",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.35701555634976884,
+          "process_sim": 0.25447698910106475,
+          "gap": 0.10253856724870408
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2940981795751804,
+          "process_sim": 0.23688022589411675,
+          "gap": 0.057217953681063666
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.22408791983611634,
+          "process_sim": 0.24619310769258618,
+          "gap": -0.022105187856469838
+        }
+      },
+      "mean_gap": 0.0458837776910993,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "someone being beautiful",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3992453773988661,
+          "process_sim": 0.3931017421876911,
+          "gap": 0.0061436352111750026
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3579134274322847,
+          "process_sim": 0.314008112966067,
+          "gap": 0.043905314466217704
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2859264592187907,
+          "process_sim": 0.29512896450905995,
+          "gap": -0.00920250529026928
+        }
+      },
+      "mean_gap": 0.013615481462374476,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "being beautiful",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3804832254557724,
+          "process_sim": 0.3012164137913263,
+          "gap": 0.0792668116644461
+        },
+        "object_vs_event": {
+          "entity_sim": 0.29500096389713065,
+          "process_sim": 0.25404930836446005,
+          "gap": 0.040951655532670606
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.21963451000925696,
+          "process_sim": 0.2739267135007907,
+          "gap": -0.054292203491533714
+        }
+      },
+      "mean_gap": 0.02197542123519433,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "being beautiful naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3552535453535271,
+          "process_sim": 0.19278072166336918,
+          "gap": 0.16247282369015792
+        },
+        "object_vs_event": {
+          "entity_sim": 0.21862248009504873,
+          "process_sim": 0.17674909053540955,
+          "gap": 0.04187338955963918
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.12826269520528635,
+          "process_sim": 0.22918564416179846,
+          "gap": -0.1009229489565121
+        }
+      },
+      "mean_gap": 0.034474421431095,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "noun_minimal",
+      "phrase": "beauty",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3793541150054678,
+          "process_sim": 0.2422708919031329,
+          "gap": 0.1370832231023349
+        },
+        "object_vs_event": {
+          "entity_sim": 0.34587442038504057,
+          "process_sim": 0.2594998086501017,
+          "gap": 0.08637461173493888
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.24754228452251473,
+          "process_sim": 0.26228350481662743,
+          "gap": -0.014741220294112706
+        }
+      },
+      "mean_gap": 0.06957220484772035,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "noun_with_word",
+      "phrase": "the word beauty",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3722889147025841,
+          "process_sim": 0.23283340968262897,
+          "gap": 0.1394555050199551
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3211523790062825,
+          "process_sim": 0.23575970813796243,
+          "gap": 0.08539267086832009
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.31258869327044764,
+          "process_sim": 0.2305914099660031,
+          "gap": 0.08199728330444453
+        }
+      },
+      "mean_gap": 0.10228181973090657,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "noun_with_feeling",
+      "phrase": "the feeling of beauty",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3658957762281205,
+          "process_sim": 0.2118779588484158,
+          "gap": 0.15401781737970469
+        },
+        "object_vs_event": {
+          "entity_sim": 0.26326162854735013,
+          "process_sim": 0.21619836724988495,
+          "gap": 0.047063261297465186
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.22385729246487235,
+          "process_sim": 0.23404944461025484,
+          "gap": -0.010192152145382494
+        }
+      },
+      "mean_gap": 0.06362964217726245,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "copula_what_is",
+      "phrase": "what is beauty",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.33535057657869105,
+          "process_sim": 0.17946627676585494,
+          "gap": 0.1558842998128361
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2663447972308745,
+          "process_sim": 0.16487448415214992,
+          "gap": 0.10147031307872459
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2465080976947792,
+          "process_sim": 0.1846119542370229,
+          "gap": 0.06189614345775629
+        }
+      },
+      "mean_gap": 0.10641691878310566,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "copula_X_is_Y",
+      "phrase": "beauty is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.45214582750437443,
+          "process_sim": 0.29126268008031114,
+          "gap": 0.1608831474240633
+        },
+        "object_vs_event": {
+          "entity_sim": 0.394162791642117,
+          "process_sim": 0.28253151591836917,
+          "gap": 0.11163127572374781
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3453500724477635,
+          "process_sim": 0.2903181421384514,
+          "gap": 0.05503193030931208
+        }
+      },
+      "mean_gap": 0.10918211781904107,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "beauty",
+      "visibility_class": "invisible",
+      "form": "copula_means",
+      "phrase": "beauty means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.34890021514234837,
+          "process_sim": 0.2079379756225048,
+          "gap": 0.14096223951984357
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2768093573078435,
+          "process_sim": 0.18634760652967294,
+          "gap": 0.09046175077817056
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.29990211276389633,
+          "process_sim": 0.21595334078876385,
+          "gap": 0.08394877197513248
+        }
+      },
+      "mean_gap": 0.10512425409104886,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "to act justly",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.276942120114793,
+          "process_sim": 0.31076843421911443,
+          "gap": -0.03382631410432141
+        },
+        "object_vs_event": {
+          "entity_sim": 0.24157737499276313,
+          "process_sim": 0.30034562244344193,
+          "gap": -0.058768247450678796
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.19938126779602228,
+          "process_sim": 0.19828183032815067,
+          "gap": 0.0010994374678716112
+        }
+      },
+      "mean_gap": -0.03049837469570953,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "someone acting justly",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.34729802196716947,
+          "process_sim": 0.4401283962401593,
+          "gap": -0.09283037427298985
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3475558952794397,
+          "process_sim": 0.381474234025119,
+          "gap": -0.03391833874567929
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.31368029708520323,
+          "process_sim": 0.2708919126356968,
+          "gap": 0.042788384449506445
+        }
+      },
+      "mean_gap": -0.027986776189720897,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "acting justly",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.30695938675902357,
+          "process_sim": 0.39064491885743835,
+          "gap": -0.08368553209841478
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2722933318291863,
+          "process_sim": 0.32542213976930506,
+          "gap": -0.05312880794011876
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.22086220205809054,
+          "process_sim": 0.2535624189091976,
+          "gap": -0.03270021685110708
+        }
+      },
+      "mean_gap": -0.05650485229654687,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "acting justly naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.38752740166063243,
+          "process_sim": 0.3480704196808668,
+          "gap": 0.039456981979765604
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2737690488812,
+          "process_sim": 0.3182199163398986,
+          "gap": -0.044450867458698584
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.20211336880116645,
+          "process_sim": 0.27871956087779043,
+          "gap": -0.07660619207662397
+        }
+      },
+      "mean_gap": -0.027200025851852317,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "noun_minimal",
+      "phrase": "justice",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.30338307674522985,
+          "process_sim": 0.2866764204121882,
+          "gap": 0.016706656333041636
+        },
+        "object_vs_event": {
+          "entity_sim": 0.29334664828826457,
+          "process_sim": 0.3309277627021801,
+          "gap": -0.03758111441391554
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.23711980189090334,
+          "process_sim": 0.2661344320630796,
+          "gap": -0.02901463017217623
+        }
+      },
+      "mean_gap": -0.016629696084350044,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "noun_with_word",
+      "phrase": "the word justice",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.30424457389717596,
+          "process_sim": 0.23679096347014872,
+          "gap": 0.06745361042702724
+        },
+        "object_vs_event": {
+          "entity_sim": 0.25970741094971045,
+          "process_sim": 0.2572279586646141,
+          "gap": 0.0024794522850963285
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.28511745725705934,
+          "process_sim": 0.21751511461203527,
+          "gap": 0.06760234264502407
+        }
+      },
+      "mean_gap": 0.04584513511904922,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "noun_with_feeling",
+      "phrase": "the feeling of justice",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.36386403394707834,
+          "process_sim": 0.27947169055235294,
+          "gap": 0.0843923433947254
+        },
+        "object_vs_event": {
+          "entity_sim": 0.26692336387675736,
+          "process_sim": 0.3092318650030997,
+          "gap": -0.042308501126342324
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.24296454697190104,
+          "process_sim": 0.24676439151668259,
+          "gap": -0.00379984454478155
+        }
+      },
+      "mean_gap": 0.012761332574533843,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "copula_what_is",
+      "phrase": "what is justice",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.27060936298068783,
+          "process_sim": 0.1957192055517042,
+          "gap": 0.07489015742898364
+        },
+        "object_vs_event": {
+          "entity_sim": 0.21651400500808335,
+          "process_sim": 0.20882192736898608,
+          "gap": 0.007692077639097267
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2041017991580091,
+          "process_sim": 0.1767492831241825,
+          "gap": 0.0273525160338266
+        }
+      },
+      "mean_gap": 0.03664491703396917,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "copula_X_is_Y",
+      "phrase": "justice is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.4015135540417073,
+          "process_sim": 0.34624547924723587,
+          "gap": 0.05526807479447143
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3637844734773069,
+          "process_sim": 0.3559060487089684,
+          "gap": 0.007878424768338499
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.32771917264753664,
+          "process_sim": 0.29741840473348374,
+          "gap": 0.030300767914052895
+        }
+      },
+      "mean_gap": 0.031149089158954275,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "justice",
+      "visibility_class": "invisible",
+      "form": "copula_means",
+      "phrase": "justice means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.31742005451635147,
+          "process_sim": 0.26292007853851446,
+          "gap": 0.05449997597783701
+        },
+        "object_vs_event": {
+          "entity_sim": 0.26208637940921237,
+          "process_sim": 0.2794955839808785,
+          "gap": -0.017409204571666115
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.26617114820954074,
+          "process_sim": 0.24542101985631323,
+          "gap": 0.02075012835322751
+        }
+      },
+      "mean_gap": 0.01928029991979947,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "to be free",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.33853249572997957,
+          "process_sim": 0.30259453319752144,
+          "gap": 0.03593796253245812
+        },
+        "object_vs_event": {
+          "entity_sim": 0.29904404187134676,
+          "process_sim": 0.29184416367164034,
+          "gap": 0.007199878199706411
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.23674430596264456,
+          "process_sim": 0.2889183286445274,
+          "gap": -0.052174022681882815
+        }
+      },
+      "mean_gap": -0.0030120606499060933,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "verb",
+      "phrase": "someone being free",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.37769532661603483,
+          "process_sim": 0.4818522588461488,
+          "gap": -0.10415693223011396
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3681746629574163,
+          "process_sim": 0.4017677128442215,
+          "gap": -0.033593049886805226
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3244023710529795,
+          "process_sim": 0.3574531828873773,
+          "gap": -0.03305081183439784
+        }
+      },
+      "mean_gap": -0.056933597983772344,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "being free",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3711146375706767,
+          "process_sim": 0.351642045019786,
+          "gap": 0.019472592550890677
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3195826453289459,
+          "process_sim": 0.32312851917944596,
+          "gap": -0.0035458738505000365
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2558006479354813,
+          "process_sim": 0.33780952915735823,
+          "gap": -0.08200888122187694
+        }
+      },
+      "mean_gap": -0.0220273875071621,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "progressive",
+      "phrase": "being free naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.4004369753470517,
+          "process_sim": 0.2868169549234263,
+          "gap": 0.1136200204236254
+        },
+        "object_vs_event": {
+          "entity_sim": 0.27010592039256603,
+          "process_sim": 0.2726770617688372,
+          "gap": -0.00257114137627118
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.19519158394640954,
+          "process_sim": 0.31012555762419797,
+          "gap": -0.11493397367778843
+        }
+      },
+      "mean_gap": -0.0012950315434780701,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "noun_minimal",
+      "phrase": "freedom",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.31382223545355353,
+          "process_sim": 0.26323838580632736,
+          "gap": 0.050583849647226176
+        },
+        "object_vs_event": {
+          "entity_sim": 0.29641111084705496,
+          "process_sim": 0.30689986833616284,
+          "gap": -0.01048875748910788
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.24297998601611936,
+          "process_sim": 0.31553910991627243,
+          "gap": -0.07255912390015307
+        }
+      },
+      "mean_gap": -0.010821343914011591,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "noun_with_word",
+      "phrase": "the word freedom",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.28795488005600817,
+          "process_sim": 0.23088431664949732,
+          "gap": 0.057070563406510844
+        },
+        "object_vs_event": {
+          "entity_sim": 0.25135014044078785,
+          "process_sim": 0.24872743931172778,
+          "gap": 0.0026227011290600732
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2902830512348297,
+          "process_sim": 0.24608530083859725,
+          "gap": 0.04419775039623247
+        }
+      },
+      "mean_gap": 0.03463033831060113,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "noun_with_feeling",
+      "phrase": "the feeling of freedom",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3291445923615243,
+          "process_sim": 0.25546155045850405,
+          "gap": 0.07368304190302027
+        },
+        "object_vs_event": {
+          "entity_sim": 0.23247056965893664,
+          "process_sim": 0.265261151162619,
+          "gap": -0.03279058150368236
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.1891206327670434,
+          "process_sim": 0.2796829627886872,
+          "gap": -0.0905623300216438
+        }
+      },
+      "mean_gap": -0.016556623207435294,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "copula_what_is",
+      "phrase": "what is freedom",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.26006361344045853,
+          "process_sim": 0.20731908085271875,
+          "gap": 0.052744532587739784
+        },
+        "object_vs_event": {
+          "entity_sim": 0.20316536652640477,
+          "process_sim": 0.2131653861636694,
+          "gap": -0.010000019637264629
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.23025955309889087,
+          "process_sim": 0.2108567151847724,
+          "gap": 0.01940283791411848
+        }
+      },
+      "mean_gap": 0.020715783621531213,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "copula_X_is_Y",
+      "phrase": "freedom is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3911639789194329,
+          "process_sim": 0.315745128844869,
+          "gap": 0.07541885007456389
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3458023888735024,
+          "process_sim": 0.3259838027963925,
+          "gap": 0.0198185860771099
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3299502811955323,
+          "process_sim": 0.3070644756741644,
+          "gap": 0.02288580552136793
+        }
+      },
+      "mean_gap": 0.039374413891013905,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "freedom",
+      "visibility_class": "invisible",
+      "form": "copula_means",
+      "phrase": "freedom means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2561105502632102,
+          "process_sim": 0.22075229248630185,
+          "gap": 0.035358257776908375
+        },
+        "object_vs_event": {
+          "entity_sim": 0.21034004752105995,
+          "process_sim": 0.22039873227601123,
+          "gap": -0.01005868475495128
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2832203478036841,
+          "process_sim": 0.23300247972033442,
+          "gap": 0.05021786808334969
+        }
+      },
+      "mean_gap": 0.025172480368435595,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "to run",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2625087796250515,
+          "process_sim": 0.3751236266535718,
+          "gap": -0.11261484702852032
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2677181108834488,
+          "process_sim": 0.33750078530797706,
+          "gap": -0.06978267442452823
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.19767716550246345,
+          "process_sim": 0.36934311805972825,
+          "gap": -0.1716659525572648
+        }
+      },
+      "mean_gap": -0.11802115800343778,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "someone running",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2566686890310127,
+          "process_sim": 0.4778299570567842,
+          "gap": -0.22116126802577152
+        },
+        "object_vs_event": {
+          "entity_sim": 0.287890005533832,
+          "process_sim": 0.3514302224792623,
+          "gap": -0.06354021694543033
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.23258575585588015,
+          "process_sim": 0.39113751436363847,
+          "gap": -0.15855175850775832
+        }
+      },
+      "mean_gap": -0.14775108115965338,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "running",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.26543063596779837,
+          "process_sim": 0.4794871772462343,
+          "gap": -0.21405654127843593
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2636219034030424,
+          "process_sim": 0.34833625637459076,
+          "gap": -0.08471435297154833
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.17209753459036772,
+          "process_sim": 0.43969262516823937,
+          "gap": -0.2675950905778717
+        }
+      },
+      "mean_gap": -0.1887886616092853,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "running naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.32073879822359486,
+          "process_sim": 0.34020878583654446,
+          "gap": -0.019469987612949602
+        },
+        "object_vs_event": {
+          "entity_sim": 0.22396995796830746,
+          "process_sim": 0.27756855887471,
+          "gap": -0.05359860090640253
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.14068102186964382,
+          "process_sim": 0.3566354004473872,
+          "gap": -0.21595437857774336
+        }
+      },
+      "mean_gap": -0.09634098903236517,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "agentive",
+      "phrase": "a runner",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.28785554217574494,
+          "process_sim": 0.3755584272009128,
+          "gap": -0.08770288502516788
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3670924302339134,
+          "process_sim": 0.35255556562177653,
+          "gap": 0.01453686461213688
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.29086744781482576,
+          "process_sim": 0.3793885073920296,
+          "gap": -0.08852105957720385
+        }
+      },
+      "mean_gap": -0.053895693330078286,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "noun_minimal",
+      "phrase": "running",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.26543063596779837,
+          "process_sim": 0.4794871772462343,
+          "gap": -0.21405654127843593
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2636219034030424,
+          "process_sim": 0.34833625637459076,
+          "gap": -0.08471435297154833
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.17209753459036772,
+          "process_sim": 0.43969262516823937,
+          "gap": -0.2675950905778717
+        }
+      },
+      "mean_gap": -0.1887886616092853,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "noun_with_word",
+      "phrase": "the word running",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.30069683938014447,
+          "process_sim": 0.42242043586253963,
+          "gap": -0.12172359648239517
+        },
+        "object_vs_event": {
+          "entity_sim": 0.28765932754584517,
+          "process_sim": 0.31388369915250247,
+          "gap": -0.026224371606657304
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.29782804654870004,
+          "process_sim": 0.36177540235225836,
+          "gap": -0.06394735580355831
+        }
+      },
+      "mean_gap": -0.07063177463087027,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "noun_with_act",
+      "phrase": "the act of running",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.29422904371005504,
+          "process_sim": 0.4639734903120279,
+          "gap": -0.16974444660197285
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2771083319000031,
+          "process_sim": 0.4184256600054212,
+          "gap": -0.14131732810541808
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.22306337144703733,
+          "process_sim": 0.3622609839119638,
+          "gap": -0.13919761246492648
+        }
+      },
+      "mean_gap": -0.15008646239077247,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "copula_what_is",
+      "phrase": "what is running",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2744068310433926,
+          "process_sim": 0.4244077868066911,
+          "gap": -0.15000095576329853
+        },
+        "object_vs_event": {
+          "entity_sim": 0.25317096973111286,
+          "process_sim": 0.3078767776811028,
+          "gap": -0.054705807949989915
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.22461976681318868,
+          "process_sim": 0.3558057773798262,
+          "gap": -0.13118601056663753
+        }
+      },
+      "mean_gap": -0.11196425809330866,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "copula_X_is_Y",
+      "phrase": "running is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.34907315898011604,
+          "process_sim": 0.42428857012172005,
+          "gap": -0.07521541114160402
+        },
+        "object_vs_event": {
+          "entity_sim": 0.323264877979672,
+          "process_sim": 0.3309582359122334,
+          "gap": -0.007693357932561373
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2710170014424505,
+          "process_sim": 0.3344612189709174,
+          "gap": -0.0634442175284669
+        }
+      },
+      "mean_gap": -0.0487843288675441,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "running",
+      "visibility_class": "visible",
+      "form": "copula_means",
+      "phrase": "running means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.25965278186392793,
+          "process_sim": 0.3739107894666241,
+          "gap": -0.11425800760269617
+        },
+        "object_vs_event": {
+          "entity_sim": 0.23898458469588954,
+          "process_sim": 0.2941667857320629,
+          "gap": -0.055182201036173356
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.22190385530865722,
+          "process_sim": 0.34272694767174516,
+          "gap": -0.12082309236308794
+        }
+      },
+      "mean_gap": -0.09675443366731916,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "to swim",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.16689931329571586,
+          "process_sim": 0.23868188124361003,
+          "gap": -0.07178256794789417
+        },
+        "object_vs_event": {
+          "entity_sim": 0.17191976951755406,
+          "process_sim": 0.1906943418871177,
+          "gap": -0.018774572369563647
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.13368865515359837,
+          "process_sim": 0.20464507012002012,
+          "gap": -0.07095641496642174
+        }
+      },
+      "mean_gap": -0.05383785176129319,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "someone swimming",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.20320426883954543,
+          "process_sim": 0.35468226581400786,
+          "gap": -0.15147799697446243
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2147336700175315,
+          "process_sim": 0.24582711324298753,
+          "gap": -0.03109344322545604
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.16008645861071308,
+          "process_sim": 0.319942352686398,
+          "gap": -0.1598558940756849
+        }
+      },
+      "mean_gap": -0.11414244475853445,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "swimming",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.20384638509644895,
+          "process_sim": 0.3519836319885105,
+          "gap": -0.14813724689206156
+        },
+        "object_vs_event": {
+          "entity_sim": 0.21686840066283797,
+          "process_sim": 0.2376903643422708,
+          "gap": -0.020821963679432842
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.16157568888896245,
+          "process_sim": 0.29229202805170507,
+          "gap": -0.1307163391627426
+        }
+      },
+      "mean_gap": -0.09989184991141235,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "swimming naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.28379467534982145,
+          "process_sim": 0.2646006187804575,
+          "gap": 0.01919405656936396
+        },
+        "object_vs_event": {
+          "entity_sim": 0.18823682137950437,
+          "process_sim": 0.19872631223766427,
+          "gap": -0.010489490858159894
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.12661455250469386,
+          "process_sim": 0.292877805223242,
+          "gap": -0.16626325271854817
+        }
+      },
+      "mean_gap": -0.05251956233578137,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "agentive",
+      "phrase": "a swimmer",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.237318636819848,
+          "process_sim": 0.31302137689425413,
+          "gap": -0.07570274007440614
+        },
+        "object_vs_event": {
+          "entity_sim": 0.29525592676591933,
+          "process_sim": 0.266395512206994,
+          "gap": 0.02886041455892535
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.23527208354804058,
+          "process_sim": 0.2873204377353396,
+          "gap": -0.05204835418729903
+        }
+      },
+      "mean_gap": -0.03296355990092661,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "noun_minimal",
+      "phrase": "swimming",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.20384638509644895,
+          "process_sim": 0.3519836319885105,
+          "gap": -0.14813724689206156
+        },
+        "object_vs_event": {
+          "entity_sim": 0.21686840066283797,
+          "process_sim": 0.2376903643422708,
+          "gap": -0.020821963679432842
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.16157568888896245,
+          "process_sim": 0.29229202805170507,
+          "gap": -0.1307163391627426
+        }
+      },
+      "mean_gap": -0.09989184991141235,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "noun_with_word",
+      "phrase": "the word swimming",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.21995381068276082,
+          "process_sim": 0.30633354330373946,
+          "gap": -0.08637973262097864
+        },
+        "object_vs_event": {
+          "entity_sim": 0.21498073572677365,
+          "process_sim": 0.21611635842233776,
+          "gap": -0.001135622695564109
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.253154339564,
+          "process_sim": 0.24480421529440757,
+          "gap": 0.008350124269592446
+        }
+      },
+      "mean_gap": -0.026388410348983437,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "noun_with_act",
+      "phrase": "the act of swimming",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.240778167218311,
+          "process_sim": 0.39046717342241327,
+          "gap": -0.14968900620410228
+        },
+        "object_vs_event": {
+          "entity_sim": 0.23192046723698292,
+          "process_sim": 0.32357377508420954,
+          "gap": -0.09165330784722661
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.19603238900220774,
+          "process_sim": 0.28178086259891433,
+          "gap": -0.08574847359670659
+        }
+      },
+      "mean_gap": -0.10903026254934516,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "copula_what_is",
+      "phrase": "what is swimming",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.18439182080707994,
+          "process_sim": 0.26029979070976916,
+          "gap": -0.07590796990268922
+        },
+        "object_vs_event": {
+          "entity_sim": 0.165553959369841,
+          "process_sim": 0.16294528943289205,
+          "gap": 0.002608669936948943
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.17121568558716316,
+          "process_sim": 0.20718718838244404,
+          "gap": -0.035971502795280885
+        }
+      },
+      "mean_gap": -0.03642360092034039,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "copula_X_is_Y",
+      "phrase": "swimming is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.30701710859860565,
+          "process_sim": 0.3965864626182016,
+          "gap": -0.08956935401959593
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3250939291097096,
+          "process_sim": 0.30487767474427757,
+          "gap": 0.020216254365432007
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2880329709259773,
+          "process_sim": 0.3034985422106541,
+          "gap": -0.015465571284676793
+        }
+      },
+      "mean_gap": -0.028272890312946903,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "swimming",
+      "visibility_class": "visible",
+      "form": "copula_means",
+      "phrase": "swimming means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.22301025067227076,
+          "process_sim": 0.29632393022478354,
+          "gap": -0.07331367955251278
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2005435057260664,
+          "process_sim": 0.20834081686010344,
+          "gap": -0.007797311134037033
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.24753026622930954,
+          "process_sim": 0.2645779406793634,
+          "gap": -0.017047674450053868
+        }
+      },
+      "mean_gap": -0.03271955504553456,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "to dance",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.17689082016625063,
+          "process_sim": 0.29066191674440023,
+          "gap": -0.1137710965781496
+        },
+        "object_vs_event": {
+          "entity_sim": 0.18564470514848896,
+          "process_sim": 0.24668086846120116,
+          "gap": -0.061036163312712194
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.13396401041432845,
+          "process_sim": 0.24181782541509447,
+          "gap": -0.10785381500076602
+        }
+      },
+      "mean_gap": -0.09422035829720928,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "someone dancing",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.23746766924765916,
+          "process_sim": 0.493469855889364,
+          "gap": -0.2560021866417048
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2980708835933698,
+          "process_sim": 0.3503185082292233,
+          "gap": -0.052247624635853473
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.21288472927530172,
+          "process_sim": 0.3920552925192781,
+          "gap": -0.1791705632439764
+        }
+      },
+      "mean_gap": -0.1624734581738449,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "dancing",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.22837950933865037,
+          "process_sim": 0.46007550666197045,
+          "gap": -0.23169599732332008
+        },
+        "object_vs_event": {
+          "entity_sim": 0.24021493833277527,
+          "process_sim": 0.31434785306017415,
+          "gap": -0.07413291472739889
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.17167425750309884,
+          "process_sim": 0.34133966544966393,
+          "gap": -0.1696654079465651
+        }
+      },
+      "mean_gap": -0.15849810666576133,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "dancing naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.29122202639612293,
+          "process_sim": 0.35036377472018754,
+          "gap": -0.0591417483240646
+        },
+        "object_vs_event": {
+          "entity_sim": 0.20622992708615973,
+          "process_sim": 0.2668958451170882,
+          "gap": -0.06066591803092847
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.12966301597674137,
+          "process_sim": 0.31543532744144637,
+          "gap": -0.185772311464705
+        }
+      },
+      "mean_gap": -0.10185999260656602,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "agentive",
+      "phrase": "a dancer",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2780614795080846,
+          "process_sim": 0.38786260743326717,
+          "gap": -0.1098011279251826
+        },
+        "object_vs_event": {
+          "entity_sim": 0.34895320470917485,
+          "process_sim": 0.3214579298576899,
+          "gap": 0.027495274851484952
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.25642691604416623,
+          "process_sim": 0.340888895681934,
+          "gap": -0.08446197963776775
+        }
+      },
+      "mean_gap": -0.05558927757048846,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "noun_minimal",
+      "phrase": "dancing",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.22837950933865037,
+          "process_sim": 0.46007550666197045,
+          "gap": -0.23169599732332008
+        },
+        "object_vs_event": {
+          "entity_sim": 0.24021493833277527,
+          "process_sim": 0.31434785306017415,
+          "gap": -0.07413291472739889
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.17167425750309884,
+          "process_sim": 0.34133966544966393,
+          "gap": -0.1696654079465651
+        }
+      },
+      "mean_gap": -0.15849810666576133,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "noun_with_word",
+      "phrase": "the word dancing",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2415095220772485,
+          "process_sim": 0.3545082621319789,
+          "gap": -0.1129987400547304
+        },
+        "object_vs_event": {
+          "entity_sim": 0.23338835742542816,
+          "process_sim": 0.2537461801459387,
+          "gap": -0.020357822720510538
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2526378452052115,
+          "process_sim": 0.2678768881286418,
+          "gap": -0.015239042923430313
+        }
+      },
+      "mean_gap": -0.04953186856622375,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "noun_with_act",
+      "phrase": "the act of dancing",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2623890141004376,
+          "process_sim": 0.4468252790788379,
+          "gap": -0.18443626497840032
+        },
+        "object_vs_event": {
+          "entity_sim": 0.26495610690035376,
+          "process_sim": 0.3806398775468819,
+          "gap": -0.11568377064652813
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2145739314299111,
+          "process_sim": 0.3088832019631175,
+          "gap": -0.09430927053320642
+        }
+      },
+      "mean_gap": -0.13147643538604495,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "copula_what_is",
+      "phrase": "what is dancing",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.18973774848808056,
+          "process_sim": 0.31730180119722945,
+          "gap": -0.1275640527091489
+        },
+        "object_vs_event": {
+          "entity_sim": 0.16187833156394657,
+          "process_sim": 0.18574603703617937,
+          "gap": -0.023867705472232797
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.16154701982654546,
+          "process_sim": 0.22571252109795867,
+          "gap": -0.06416550127141321
+        }
+      },
+      "mean_gap": -0.07186575315093163,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "copula_X_is_Y",
+      "phrase": "dancing is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.320365132109145,
+          "process_sim": 0.4387130189008856,
+          "gap": -0.11834788679174058
+        },
+        "object_vs_event": {
+          "entity_sim": 0.316468634221821,
+          "process_sim": 0.32758874004944527,
+          "gap": -0.011120105827624294
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.26908565921131183,
+          "process_sim": 0.3263452675642239,
+          "gap": -0.05725960835291205
+        }
+      },
+      "mean_gap": -0.06224253365742564,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "dancing",
+      "visibility_class": "visible",
+      "form": "copula_means",
+      "phrase": "dancing means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.22424112204748023,
+          "process_sim": 0.3605381124890607,
+          "gap": -0.13629699044158047
+        },
+        "object_vs_event": {
+          "entity_sim": 0.198427343393883,
+          "process_sim": 0.2504205893314108,
+          "gap": -0.05199324593752783
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2312043052818297,
+          "process_sim": 0.2879714839924982,
+          "gap": -0.056767178710668525
+        }
+      },
+      "mean_gap": -0.0816858050299256,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "to eat",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.22612669939730776,
+          "process_sim": 0.31089621198155054,
+          "gap": -0.08476951258424278
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2716361560810378,
+          "process_sim": 0.2687040027315531,
+          "gap": 0.002932153349484712
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2078941819825146,
+          "process_sim": 0.21876642677626562,
+          "gap": -0.010872244793751012
+        }
+      },
+      "mean_gap": -0.03090320134283636,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "someone eating",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.257993569121395,
+          "process_sim": 0.4579138200191154,
+          "gap": -0.19992025089772042
+        },
+        "object_vs_event": {
+          "entity_sim": 0.30369957589362495,
+          "process_sim": 0.30105807764658105,
+          "gap": 0.0026414982470439052
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.237054405169133,
+          "process_sim": 0.32412178587738244,
+          "gap": -0.08706738070824943
+        }
+      },
+      "mean_gap": -0.09478204445297532,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "eating",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.25335064968765963,
+          "process_sim": 0.451560938538265,
+          "gap": -0.19821028885060538
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2958051588693066,
+          "process_sim": 0.3385888859390226,
+          "gap": -0.042783727069716004
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2111998404155578,
+          "process_sim": 0.3278461672322823,
+          "gap": -0.11664632681672452
+        }
+      },
+      "mean_gap": -0.11921344757901531,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "eating naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.31454792772305457,
+          "process_sim": 0.2738579145437254,
+          "gap": 0.04069001317932919
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2124246215948216,
+          "process_sim": 0.2423423998917669,
+          "gap": -0.029917778296945308
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.12061070560074333,
+          "process_sim": 0.28346322839396754,
+          "gap": -0.1628525227932242
+        }
+      },
+      "mean_gap": -0.050693429303613445,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "noun_minimal",
+      "phrase": "eating",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.25335064968765963,
+          "process_sim": 0.451560938538265,
+          "gap": -0.19821028885060538
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2958051588693066,
+          "process_sim": 0.3385888859390226,
+          "gap": -0.042783727069716004
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2111998404155578,
+          "process_sim": 0.3278461672322823,
+          "gap": -0.11664632681672452
+        }
+      },
+      "mean_gap": -0.11921344757901531,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "noun_with_word",
+      "phrase": "the word eating",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2938429671473671,
+          "process_sim": 0.3945074025237689,
+          "gap": -0.10066443537640185
+        },
+        "object_vs_event": {
+          "entity_sim": 0.28058119624468186,
+          "process_sim": 0.28987644955684305,
+          "gap": -0.009295253312161189
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.301477180056967,
+          "process_sim": 0.25545480156153133,
+          "gap": 0.04602237849543567
+        }
+      },
+      "mean_gap": -0.021312436731042456,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "noun_with_act",
+      "phrase": "the act of eating",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2783348037635404,
+          "process_sim": 0.43577561691222083,
+          "gap": -0.15744081314868041
+        },
+        "object_vs_event": {
+          "entity_sim": 0.28707152128234137,
+          "process_sim": 0.3970989478049417,
+          "gap": -0.11002742652260034
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.233395256865701,
+          "process_sim": 0.2702293897513219,
+          "gap": -0.036834132885620874
+        }
+      },
+      "mean_gap": -0.10143412418563387,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "copula_what_is",
+      "phrase": "what is eating",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2783451223851643,
+          "process_sim": 0.39460549950265916,
+          "gap": -0.11626037711749487
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2591398154851761,
+          "process_sim": 0.30216880608982083,
+          "gap": -0.04302899060464471
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2486681040184185,
+          "process_sim": 0.2809100804478592,
+          "gap": -0.03224197642944071
+        }
+      },
+      "mean_gap": -0.0638437813838601,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "copula_X_is_Y",
+      "phrase": "eating is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.36595571114571884,
+          "process_sim": 0.46565494224767456,
+          "gap": -0.09969923110195572
+        },
+        "object_vs_event": {
+          "entity_sim": 0.37021846239377726,
+          "process_sim": 0.3764463665042219,
+          "gap": -0.00622790411044466
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.3081289163465916,
+          "process_sim": 0.32726124664704814,
+          "gap": -0.019132330300456524
+        }
+      },
+      "mean_gap": -0.041686488504285635,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "eating",
+      "visibility_class": "visible",
+      "form": "copula_means",
+      "phrase": "eating means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2736358326545399,
+          "process_sim": 0.3748300523307873,
+          "gap": -0.10119421967624742
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2713455659329923,
+          "process_sim": 0.3141645829808834,
+          "gap": -0.042819017047891095
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.25027323087619824,
+          "process_sim": 0.2808199350501141,
+          "gap": -0.030546704173915862
+        }
+      },
+      "mean_gap": -0.05818664696601813,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "to walk",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.19407757252784852,
+          "process_sim": 0.3153371629890936,
+          "gap": -0.12125959046124507
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2336257759715639,
+          "process_sim": 0.27639601902984784,
+          "gap": -0.04277024305828395
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.18126046767296836,
+          "process_sim": 0.3041381698067508,
+          "gap": -0.12287770213378243
+        }
+      },
+      "mean_gap": -0.09563584521777048,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "someone walking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.23591602822567245,
+          "process_sim": 0.4869143569290751,
+          "gap": -0.25099832870340266
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3215844290926803,
+          "process_sim": 0.345284828286322,
+          "gap": -0.023700399193641697
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.26087988589228533,
+          "process_sim": 0.42461072290874596,
+          "gap": -0.16373083701646063
+        }
+      },
+      "mean_gap": -0.14614318830450165,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "walking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.23237414466887496,
+          "process_sim": 0.43013095944115354,
+          "gap": -0.19775681477227858
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2578527301024125,
+          "process_sim": 0.32253083265089416,
+          "gap": -0.06467810254848166
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.19552966903182017,
+          "process_sim": 0.40631896468934803,
+          "gap": -0.21078929565752785
+        }
+      },
+      "mean_gap": -0.15774140432609604,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "walking naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.23016366749239422,
+          "process_sim": 0.3367915386173978,
+          "gap": -0.10662787112500358
+        },
+        "object_vs_event": {
+          "entity_sim": 0.21094222990997408,
+          "process_sim": 0.26025539754935256,
+          "gap": -0.049313167639378486
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.15441845522902184,
+          "process_sim": 0.3403928030263819,
+          "gap": -0.18597434779736008
+        }
+      },
+      "mean_gap": -0.11397179552058072,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "agentive",
+      "phrase": "a walker",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.25970679294357324,
+          "process_sim": 0.33381558326979605,
+          "gap": -0.0741087903262228
+        },
+        "object_vs_event": {
+          "entity_sim": 0.36566847407467684,
+          "process_sim": 0.32135115223037997,
+          "gap": 0.044317321844296875
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.29694303389655935,
+          "process_sim": 0.367165378019152,
+          "gap": -0.07022234412259265
+        }
+      },
+      "mean_gap": -0.033337937534839525,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "noun_minimal",
+      "phrase": "walking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.23237414466887496,
+          "process_sim": 0.43013095944115354,
+          "gap": -0.19775681477227858
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2578527301024125,
+          "process_sim": 0.32253083265089416,
+          "gap": -0.06467810254848166
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.19552966903182017,
+          "process_sim": 0.40631896468934803,
+          "gap": -0.21078929565752785
+        }
+      },
+      "mean_gap": -0.15774140432609604,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "noun_with_word",
+      "phrase": "the word walking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.25085652631532995,
+          "process_sim": 0.3821995682941972,
+          "gap": -0.13134304197886726
+        },
+        "object_vs_event": {
+          "entity_sim": 0.26353409382835824,
+          "process_sim": 0.28202834941494204,
+          "gap": -0.018494255586583797
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2816266478343184,
+          "process_sim": 0.32598204934128905,
+          "gap": -0.04435540150697065
+        }
+      },
+      "mean_gap": -0.06473089969080724,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "noun_with_act",
+      "phrase": "the act of walking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.26131881146311453,
+          "process_sim": 0.4458165137095424,
+          "gap": -0.18449770224642786
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2927977857486067,
+          "process_sim": 0.3997667865035839,
+          "gap": -0.10696900075497717
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.24108094558126328,
+          "process_sim": 0.36035847929836917,
+          "gap": -0.1192775337171059
+        }
+      },
+      "mean_gap": -0.13691474557283698,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "copula_what_is",
+      "phrase": "what is walking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.1813722120952238,
+          "process_sim": 0.32275504007574424,
+          "gap": -0.14138282798052043
+        },
+        "object_vs_event": {
+          "entity_sim": 0.18093523865517314,
+          "process_sim": 0.2166178691661056,
+          "gap": -0.035682630510932456
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.18769407467917854,
+          "process_sim": 0.27155260976485956,
+          "gap": -0.08385853508568103
+        }
+      },
+      "mean_gap": -0.0869746645257113,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "copula_X_is_Y",
+      "phrase": "walking is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3411339857843036,
+          "process_sim": 0.46903110829800254,
+          "gap": -0.12789712251369895
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3567445174727136,
+          "process_sim": 0.3708801578032987,
+          "gap": -0.01413564033058512
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.29682284479490884,
+          "process_sim": 0.3896094199903949,
+          "gap": -0.09278657519548605
+        }
+      },
+      "mean_gap": -0.07827311267992337,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "walking",
+      "visibility_class": "visible",
+      "form": "copula_means",
+      "phrase": "walking means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2221714357775876,
+          "process_sim": 0.35831402117970856,
+          "gap": -0.13614258540212096
+        },
+        "object_vs_event": {
+          "entity_sim": 0.24859655264044134,
+          "process_sim": 0.28034710128439777,
+          "gap": -0.03175054864395643
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.2430786400872381,
+          "process_sim": 0.347806916350862,
+          "gap": -0.10472827626362394
+        }
+      },
+      "mean_gap": -0.0908738034365671,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "to cook",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.16540480468792237,
+          "process_sim": 0.2674235766930124,
+          "gap": -0.10201877200509005
+        },
+        "object_vs_event": {
+          "entity_sim": 0.20933485777506666,
+          "process_sim": 0.21561091345966113,
+          "gap": -0.006276055684594467
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.1524787944883808,
+          "process_sim": 0.22409647373805147,
+          "gap": -0.07161767924967066
+        }
+      },
+      "mean_gap": -0.059970835646451726,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "verb",
+      "phrase": "someone cooking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.19328856257199126,
+          "process_sim": 0.4185827767242176,
+          "gap": -0.22529421415222636
+        },
+        "object_vs_event": {
+          "entity_sim": 0.24461525712352056,
+          "process_sim": 0.26199492776214317,
+          "gap": -0.017379670638622613
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.18253244544920302,
+          "process_sim": 0.31660522403585284,
+          "gap": -0.13407277858664982
+        }
+      },
+      "mean_gap": -0.12558222112583292,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "cooking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2146905919168348,
+          "process_sim": 0.42941560743332924,
+          "gap": -0.21472501551649445
+        },
+        "object_vs_event": {
+          "entity_sim": 0.25499395710909195,
+          "process_sim": 0.2848933353603082,
+          "gap": -0.029899378251216246
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.20570867212336216,
+          "process_sim": 0.3266601716886593,
+          "gap": -0.12095149956529713
+        }
+      },
+      "mean_gap": -0.1218586311110026,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "progressive",
+      "phrase": "cooking naturally",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2772211602220245,
+          "process_sim": 0.2688464547648531,
+          "gap": 0.008374705457171394
+        },
+        "object_vs_event": {
+          "entity_sim": 0.19513466700226664,
+          "process_sim": 0.22283452202838178,
+          "gap": -0.027699855026115133
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.11081410585608406,
+          "process_sim": 0.2910158885527447,
+          "gap": -0.18020178269666062
+        }
+      },
+      "mean_gap": -0.06650897742186812,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "agentive",
+      "phrase": "a cook",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.23215564715603762,
+          "process_sim": 0.3435893634812245,
+          "gap": -0.11143371632518687
+        },
+        "object_vs_event": {
+          "entity_sim": 0.3219584780676755,
+          "process_sim": 0.2894181155805684,
+          "gap": 0.03254036248710712
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.24111893350433133,
+          "process_sim": 0.2721803432805821,
+          "gap": -0.03106140977625077
+        }
+      },
+      "mean_gap": -0.03665158787144351,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "noun_minimal",
+      "phrase": "cooking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2146905919168348,
+          "process_sim": 0.42941560743332924,
+          "gap": -0.21472501551649445
+        },
+        "object_vs_event": {
+          "entity_sim": 0.25499395710909195,
+          "process_sim": 0.2848933353603082,
+          "gap": -0.029899378251216246
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.20570867212336216,
+          "process_sim": 0.3266601716886593,
+          "gap": -0.12095149956529713
+        }
+      },
+      "mean_gap": -0.1218586311110026,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "noun_with_word",
+      "phrase": "the word cooking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.213808405363441,
+          "process_sim": 0.34389714046369874,
+          "gap": -0.13008873510025773
+        },
+        "object_vs_event": {
+          "entity_sim": 0.2286994845273639,
+          "process_sim": 0.23505870378020866,
+          "gap": -0.006359219252844744
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.25368239855512537,
+          "process_sim": 0.25662003279639944,
+          "gap": -0.0029376342412740786
+        }
+      },
+      "mean_gap": -0.04646186286479218,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "noun_with_act",
+      "phrase": "the act of cooking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.23371166076376917,
+          "process_sim": 0.4243905557132568,
+          "gap": -0.19067889494948762
+        },
+        "object_vs_event": {
+          "entity_sim": 0.24991042034042898,
+          "process_sim": 0.35257841796001727,
+          "gap": -0.10266799761958828
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.1992277234909167,
+          "process_sim": 0.30247239154043676,
+          "gap": -0.10324466804952007
+        }
+      },
+      "mean_gap": -0.1321971868728653,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "copula_what_is",
+      "phrase": "what is cooking",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.2078878958900413,
+          "process_sim": 0.3746292518047349,
+          "gap": -0.16674135591469358
+        },
+        "object_vs_event": {
+          "entity_sim": 0.19753335252551726,
+          "process_sim": 0.2433250424832805,
+          "gap": -0.045791689957763226
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.1981217081893633,
+          "process_sim": 0.2961756246814017,
+          "gap": -0.09805391649203837
+        }
+      },
+      "mean_gap": -0.10352898745483173,
+      "sign_agreement_across_anchors": true
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "copula_X_is_Y",
+      "phrase": "cooking is something",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.3111890601934258,
+          "process_sim": 0.4510344330530442,
+          "gap": -0.1398453728596184
+        },
+        "object_vs_event": {
+          "entity_sim": 0.33400420233169914,
+          "process_sim": 0.3301315758581642,
+          "gap": 0.0038726264735349236
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.28969096710079145,
+          "process_sim": 0.32857989963412165,
+          "gap": -0.0388889325333302
+        }
+      },
+      "mean_gap": -0.05828722630647123,
+      "sign_agreement_across_anchors": false
+    },
+    {
+      "concept": "cooking",
+      "visibility_class": "visible",
+      "form": "copula_means",
+      "phrase": "cooking means",
+      "anchor_gaps": {
+        "essence_vs_activity": {
+          "entity_sim": 0.20613699762983956,
+          "process_sim": 0.35473214094093464,
+          "gap": -0.14859514331109508
+        },
+        "object_vs_event": {
+          "entity_sim": 0.20896810125890725,
+          "process_sim": 0.24246762273529443,
+          "gap": -0.033499521476387184
+        },
+        "definition_vs_change": {
+          "entity_sim": 0.23983746246814805,
+          "process_sim": 0.2981885266578567,
+          "gap": -0.058351064189708673
+        }
+      },
+      "mean_gap": -0.08014857632573032,
+      "sign_agreement_across_anchors": true
+    }
+  ],
+  "by_form_visibility": {
+    "verb_invisible": {
+      "mean_gap": -0.009697388074872054,
+      "n": 12
+    },
+    "progressive_invisible": {
+      "mean_gap": -0.00038930461137663425,
+      "n": 12
+    },
+    "agentive_invisible": {
+      "mean_gap": 0.016333052205232818,
+      "n": 1
+    },
+    "noun_minimal_invisible": {
+      "mean_gap": 0.01055752517974129,
+      "n": 6
+    },
+    "noun_with_word_invisible": {
+      "mean_gap": 0.06291394323104876,
+      "n": 6
+    },
+    "noun_with_feeling_invisible": {
+      "mean_gap": 0.02781321266940627,
+      "n": 6
+    },
+    "copula_what_is_invisible": {
+      "mean_gap": 0.05244707401807525,
+      "n": 6
+    },
+    "copula_X_is_Y_invisible": {
+      "mean_gap": 0.0627326460995969,
+      "n": 6
+    },
+    "copula_means_invisible": {
+      "mean_gap": 0.04731240683828319,
+      "n": 6
+    },
+    "verb_visible": {
+      "mean_gap": -0.10362197402036177,
+      "n": 12
+    },
+    "progressive_visible": {
+      "mean_gap": -0.11065723728527899,
+      "n": 12
+    },
+    "agentive_visible": {
+      "mean_gap": -0.04248761124155528,
+      "n": 5
+    },
+    "noun_minimal_visible": {
+      "mean_gap": -0.14099868353376216,
+      "n": 6
+    },
+    "noun_with_word_visible": {
+      "mean_gap": -0.04650954213878656,
+      "n": 6
+    },
+    "noun_with_act_visible": {
+      "mean_gap": -0.12685653615958312,
+      "n": 6
+    },
+    "copula_what_is_visible": {
+      "mean_gap": -0.07910017425483064,
+      "n": 6
+    },
+    "copula_X_is_Y_visible": {
+      "mean_gap": -0.05292443005476614,
+      "n": 6
+    },
+    "copula_means_visible": {
+      "mean_gap": -0.07339480341184913,
+      "n": 6
+    }
+  },
+  "sign_agreement_rate": 0.6031746031746031
+}

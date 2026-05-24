@@ -1,0 +1,29 @@
+Study 2 Revision — Summary
+======================================================================
+
+Model: text-embedding-3-large
+Anchor sets: ['essence_vs_activity', 'object_vs_event', 'definition_vs_change']
+Total stimuli: 126
+Sign agreement across anchors: 76/126 (60.3%)
+
+MEAN E-P GAP BY FORM × VISIBILITY (averaged over 3 anchor sets)
+----------------------------------------------------------------------
+Form                   Visibility   Mean E-P    n
+agentive               invisible     +0.0163    1
+agentive               visible       -0.0425    5
+copula_X_is_Y          invisible     +0.0627    6
+copula_X_is_Y          visible       -0.0529    6
+copula_means           invisible     +0.0473    6
+copula_means           visible       -0.0734    6
+copula_what_is         invisible     +0.0524    6
+copula_what_is         visible       -0.0791    6
+noun_minimal           invisible     +0.0106    6
+noun_minimal           visible       -0.1410    6
+noun_with_act          visible       -0.1269    6
+noun_with_feeling      invisible     +0.0278    6
+noun_with_word         invisible     +0.0629    6
+noun_with_word         visible       -0.0465    6
+progressive            invisible     -0.0004   12
+progressive            visible       -0.1107   12
+verb                   invisible     -0.0097   12
+verb                   visible       -0.1036   12

@@ -1,0 +1,662 @@
+[
+  {
+    "concept": "love",
+    "type": "invisible",
+    "forms": {
+      "verb": {
+        "text": "to love someone",
+        "process_sim": 0.1967578568851751,
+        "entity_sim": 0.19382033205475308,
+        "person_sim": 0.28567527705755213,
+        "degree_sim": 0.16462014947270978
+      },
+      "ing": {
+        "text": "loving someone deeply",
+        "process_sim": 0.2484721128887869,
+        "entity_sim": 0.24795283448874036,
+        "person_sim": 0.27394533944685734,
+        "degree_sim": 0.239657697204291
+      },
+      "er": {
+        "text": "a lover",
+        "process_sim": 0.23470665586159836,
+        "entity_sim": 0.28020691910179707,
+        "person_sim": 0.43101640592363727,
+        "degree_sim": 0.21769751849188032
+      },
+      "ful": {
+        "text": "a loving and beautiful heart",
+        "process_sim": 0.22411133497331012,
+        "entity_sim": 0.31494355064781426,
+        "person_sim": 0.2927112964220925,
+        "degree_sim": 0.23646328457066684
+      },
+      "noun": {
+        "text": "love as a concept",
+        "process_sim": 0.21841811866920205,
+        "entity_sim": 0.3767491998874123,
+        "person_sim": 0.2196913323588291,
+        "degree_sim": 0.2468390407455431
+      },
+      "copula": {
+        "text": "what is love",
+        "process_sim": 0.17788870467910128,
+        "entity_sim": 0.2518897919962554,
+        "person_sim": 0.15514191426250273,
+        "degree_sim": 0.17043236262521444
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.7294436548613912,
+      "verb-er": 0.5277706147161628,
+      "verb-ful": 0.47759754736900006,
+      "verb-noun": 0.5226000912388573,
+      "verb-copula": 0.5466423851352691,
+      "ing-er": 0.49791521152360146,
+      "ing-ful": 0.5584556612396275,
+      "ing-noun": 0.4718160472000883,
+      "ing-copula": 0.44192903805263656,
+      "er-ful": 0.4835028316844189,
+      "er-noun": 0.41526110089290175,
+      "er-copula": 0.40763197620511404,
+      "ful-noun": 0.4129684344834525,
+      "ful-copula": 0.37696719201333934,
+      "noun-copula": 0.6295859328847143
+    }
+  },
+  {
+    "concept": "think",
+    "type": "invisible",
+    "forms": {
+      "verb": {
+        "text": "to think about something",
+        "process_sim": 0.32090460933964843,
+        "entity_sim": 0.30103750059258066,
+        "person_sim": 0.24314041395305672,
+        "degree_sim": 0.2292275852169069
+      },
+      "ing": {
+        "text": "thinking carefully",
+        "process_sim": 0.34319809320232547,
+        "entity_sim": 0.24646252526316403,
+        "person_sim": 0.26256392598240835,
+        "degree_sim": 0.26076337228527835
+      },
+      "er": {
+        "text": "a great thinker",
+        "process_sim": 0.217486352556477,
+        "entity_sim": 0.33962576459340427,
+        "person_sim": 0.3740405853534281,
+        "degree_sim": 0.22741929315406903
+      },
+      "ful": {
+        "text": "a thoughtful person",
+        "process_sim": 0.2689280003205209,
+        "entity_sim": 0.3083298528132066,
+        "person_sim": 0.46085892414166924,
+        "degree_sim": 0.26072808013820375
+      },
+      "noun": {
+        "text": "thought as a concept",
+        "process_sim": 0.3216943289597781,
+        "entity_sim": 0.48008060995104024,
+        "person_sim": 0.2795416174339859,
+        "degree_sim": 0.31232509630064104
+      },
+      "copula": {
+        "text": "what is thought",
+        "process_sim": 0.28804932038422904,
+        "entity_sim": 0.3384265985205885,
+        "person_sim": 0.23852233843697776,
+        "degree_sim": 0.24425619173605423
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.5832445613900549,
+      "verb-er": 0.41105664695002503,
+      "verb-ful": 0.4247416084578002,
+      "verb-noun": 0.49534590998856215,
+      "verb-copula": 0.4616621927263749,
+      "ing-er": 0.4240632782695904,
+      "ing-ful": 0.6032684310419022,
+      "ing-noun": 0.4297317297945095,
+      "ing-copula": 0.3880669635079473,
+      "er-ful": 0.588573817131445,
+      "er-noun": 0.4665818320636624,
+      "er-copula": 0.4099526879348417,
+      "ful-noun": 0.41751948900564206,
+      "ful-copula": 0.4423737214908276,
+      "noun-copula": 0.6745430480519464
+    }
+  },
+  {
+    "concept": "consciousness",
+    "type": "invisible",
+    "forms": {
+      "verb": {
+        "text": "to be conscious of something",
+        "process_sim": 0.3679678636112284,
+        "entity_sim": 0.32608983525669905,
+        "person_sim": 0.32868354276288053,
+        "degree_sim": 0.26615651329023465
+      },
+      "ing": {
+        "text": "being conscious and aware",
+        "process_sim": 0.42375562248240006,
+        "entity_sim": 0.3507262835767489,
+        "person_sim": 0.36234961029147666,
+        "degree_sim": 0.28922012057033386
+      },
+      "ful": {
+        "text": "a conscious and mindful state",
+        "process_sim": 0.41662539656348196,
+        "entity_sim": 0.4015377929788993,
+        "person_sim": 0.33416402062385214,
+        "degree_sim": 0.32323756051753877
+      },
+      "noun": {
+        "text": "consciousness as a phenomenon",
+        "process_sim": 0.31235301791224407,
+        "entity_sim": 0.40670637701272827,
+        "person_sim": 0.27621589208341707,
+        "degree_sim": 0.29803545037495777
+      },
+      "copula": {
+        "text": "what is consciousness",
+        "process_sim": 0.23388765636690464,
+        "entity_sim": 0.2855057397640527,
+        "person_sim": 0.18863973170923864,
+        "degree_sim": 0.200548298042534
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.7883241205711897,
+      "verb-ful": 0.5812519876133657,
+      "verb-noun": 0.5155920926597616,
+      "verb-copula": 0.5380290597982306,
+      "ing-ful": 0.7558389300046332,
+      "ing-noun": 0.5559485845532829,
+      "ing-copula": 0.591293318772527,
+      "ful-noun": 0.5225786385017387,
+      "ful-copula": 0.520207234722753,
+      "noun-copula": 0.6437493324866701
+    }
+  },
+  {
+    "concept": "beauty",
+    "type": "invisible",
+    "forms": {
+      "verb": {
+        "text": "to beautify something",
+        "process_sim": 0.1787694718434499,
+        "entity_sim": 0.2490810947391872,
+        "person_sim": 0.2161500872753806,
+        "degree_sim": 0.16241440893497264
+      },
+      "ing": {
+        "text": "beautifying and decorating",
+        "process_sim": 0.24990722933587967,
+        "entity_sim": 0.2115122745016265,
+        "person_sim": 0.20979512011549997,
+        "degree_sim": 0.1672978316927128
+      },
+      "ful": {
+        "text": "something truly beautiful",
+        "process_sim": 0.3198125023786269,
+        "entity_sim": 0.4302210750626495,
+        "person_sim": 0.34648505854082007,
+        "degree_sim": 0.3081396543342639
+      },
+      "noun": {
+        "text": "beauty as a concept",
+        "process_sim": 0.17710199543267538,
+        "entity_sim": 0.43060366203375783,
+        "person_sim": 0.2276894963912611,
+        "degree_sim": 0.2719097319844485
+      },
+      "copula": {
+        "text": "what is beauty",
+        "process_sim": 0.14153482198538372,
+        "entity_sim": 0.323593296807783,
+        "person_sim": 0.1692861050531596,
+        "degree_sim": 0.19064082263673032
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.7300800354489096,
+      "verb-ful": 0.44004484136631195,
+      "verb-noun": 0.5045577590988239,
+      "verb-copula": 0.4952889957457429,
+      "ing-ful": 0.38559553634361304,
+      "ing-noun": 0.46266682881938964,
+      "ing-copula": 0.4241027301852293,
+      "ful-noun": 0.471096885737337,
+      "ful-copula": 0.4566917528144357,
+      "noun-copula": 0.7099873126085152
+    }
+  },
+  {
+    "concept": "truth",
+    "type": "invisible",
+    "forms": {
+      "verb": {
+        "text": "to tell the truth honestly",
+        "process_sim": 0.2120542892653299,
+        "entity_sim": 0.21497024137500484,
+        "person_sim": 0.23198185305661853,
+        "degree_sim": 0.1916141485726403
+      },
+      "ing": {
+        "text": "being truthful and honest",
+        "process_sim": 0.2879451964440474,
+        "entity_sim": 0.30753648514831505,
+        "person_sim": 0.27861482352183276,
+        "degree_sim": 0.22097858360480174
+      },
+      "ful": {
+        "text": "a truthful statement",
+        "process_sim": 0.3114289080216024,
+        "entity_sim": 0.4102172460335126,
+        "person_sim": 0.34709201818209284,
+        "degree_sim": 0.31087581454145813
+      },
+      "noun": {
+        "text": "truth as a concept",
+        "process_sim": 0.224600069463414,
+        "entity_sim": 0.4590665798134931,
+        "person_sim": 0.25454847443077405,
+        "degree_sim": 0.281288711275801
+      },
+      "copula": {
+        "text": "what is truth",
+        "process_sim": 0.2124001807726799,
+        "entity_sim": 0.36524887341882084,
+        "person_sim": 0.2115119140253374,
+        "degree_sim": 0.20888521912463073
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.7445020393605053,
+      "verb-ful": 0.5961182303518201,
+      "verb-noun": 0.45162068375131165,
+      "verb-copula": 0.4189081663141816,
+      "ing-ful": 0.686484050892454,
+      "ing-noun": 0.5483845426312495,
+      "ing-copula": 0.5023706190548418,
+      "ful-noun": 0.5623527373355294,
+      "ful-copula": 0.5070148487168705,
+      "noun-copula": 0.7151948456196653
+    }
+  },
+  {
+    "concept": "hope",
+    "type": "invisible",
+    "forms": {
+      "verb": {
+        "text": "to hope for something better",
+        "process_sim": 0.29262221289320145,
+        "entity_sim": 0.24735910551037404,
+        "person_sim": 0.25119151394333533,
+        "degree_sim": 0.2717188457652163
+      },
+      "ing": {
+        "text": "hoping and wishing",
+        "process_sim": 0.3562114910878386,
+        "entity_sim": 0.22470318128591318,
+        "person_sim": 0.26148219229820696,
+        "degree_sim": 0.2694935975027252
+      },
+      "ful": {
+        "text": "feeling hopeful about the future",
+        "process_sim": 0.3103283678092152,
+        "entity_sim": 0.1913629352800822,
+        "person_sim": 0.24485551089374563,
+        "degree_sim": 0.2027585254640682
+      },
+      "noun": {
+        "text": "hope as a concept",
+        "process_sim": 0.25825482363777535,
+        "entity_sim": 0.3497324689318489,
+        "person_sim": 0.2689166069532299,
+        "degree_sim": 0.2587493418359835
+      },
+      "copula": {
+        "text": "what is hope",
+        "process_sim": 0.2277909225598403,
+        "entity_sim": 0.24652683138588194,
+        "person_sim": 0.22121417332024995,
+        "degree_sim": 0.19092867607663222
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.6435383953693647,
+      "verb-ful": 0.5847733412700999,
+      "verb-noun": 0.6061965935203008,
+      "verb-copula": 0.5525319996715018,
+      "ing-ful": 0.5303021880932215,
+      "ing-noun": 0.533777623210789,
+      "ing-copula": 0.4711837634594192,
+      "ful-noun": 0.5790266764219621,
+      "ful-copula": 0.49601286585749876,
+      "noun-copula": 0.7625415506570286
+    }
+  },
+  {
+    "concept": "meaning",
+    "type": "invisible",
+    "forms": {
+      "verb": {
+        "text": "to mean something important",
+        "process_sim": 0.3163907399817031,
+        "entity_sim": 0.3850581820141241,
+        "person_sim": 0.3057110506838093,
+        "degree_sim": 0.28543108961724917
+      },
+      "ing": {
+        "text": "meaning and significance",
+        "process_sim": 0.2690195776353828,
+        "entity_sim": 0.34826345860966523,
+        "person_sim": 0.2543937623596192,
+        "degree_sim": 0.24566742139217349
+      },
+      "ful": {
+        "text": "a meaningful experience",
+        "process_sim": 0.37023635619967676,
+        "entity_sim": 0.3525566098799792,
+        "person_sim": 0.35738079623452407,
+        "degree_sim": 0.27997018415096503
+      },
+      "noun": {
+        "text": "meaning as a concept",
+        "process_sim": 0.29017113190001337,
+        "entity_sim": 0.47843591381833955,
+        "person_sim": 0.2782934142768265,
+        "degree_sim": 0.2904568560556446
+      },
+      "copula": {
+        "text": "what is meaning",
+        "process_sim": 0.2953409218034567,
+        "entity_sim": 0.3280963548041405,
+        "person_sim": 0.21674749997468254,
+        "degree_sim": 0.23052464518123983
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.6399076214353838,
+      "verb-ful": 0.4562190848981466,
+      "verb-noun": 0.5215394935493229,
+      "verb-copula": 0.45464142207450325,
+      "ing-ful": 0.46379913559578273,
+      "ing-noun": 0.5759015852724192,
+      "ing-copula": 0.5606948867587064,
+      "ful-noun": 0.3726949388492254,
+      "ful-copula": 0.32365332500273536,
+      "noun-copula": 0.5890034997834444
+    }
+  },
+  {
+    "concept": "run",
+    "type": "visible",
+    "forms": {
+      "verb": {
+        "text": "to run quickly",
+        "process_sim": 0.2902201450455873,
+        "entity_sim": 0.15001846712821268,
+        "person_sim": 0.2238952130299351,
+        "degree_sim": 0.17897238209951083
+      },
+      "ing": {
+        "text": "running along the path",
+        "process_sim": 0.3649232895641343,
+        "entity_sim": 0.16607086683410033,
+        "person_sim": 0.25130174262008953,
+        "degree_sim": 0.25058200897926913
+      },
+      "er": {
+        "text": "a fast runner",
+        "process_sim": 0.2728102653308783,
+        "entity_sim": 0.22603750389147767,
+        "person_sim": 0.3992157795375332,
+        "degree_sim": 0.23005945684045245
+      },
+      "noun": {
+        "text": "a morning run",
+        "process_sim": 0.3082056794217432,
+        "entity_sim": 0.20072557350874995,
+        "person_sim": 0.2210398562616742,
+        "degree_sim": 0.22822561107650124
+      },
+      "copula": {
+        "text": "what is running",
+        "process_sim": 0.4065060578263276,
+        "entity_sim": 0.20000200225106216,
+        "person_sim": 0.2122490088731911,
+        "degree_sim": 0.21416530414703772
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.48655045486257803,
+      "verb-er": 0.6678094218392385,
+      "verb-noun": 0.47430641499691206,
+      "verb-copula": 0.5058403570429769,
+      "ing-er": 0.4921403282784308,
+      "ing-noun": 0.5139967860857048,
+      "ing-copula": 0.5298397954109141,
+      "er-noun": 0.5195177235414304,
+      "er-copula": 0.46540924941193346,
+      "noun-copula": 0.5231209151385549
+    }
+  },
+  {
+    "concept": "dance",
+    "type": "visible",
+    "forms": {
+      "verb": {
+        "text": "to dance gracefully",
+        "process_sim": 0.22053508183522552,
+        "entity_sim": 0.20305829904958805,
+        "person_sim": 0.22558476227956667,
+        "degree_sim": 0.21225354541632804
+      },
+      "ing": {
+        "text": "dancing on the stage",
+        "process_sim": 0.3342254311644659,
+        "entity_sim": 0.13299232043293208,
+        "person_sim": 0.2887304906069089,
+        "degree_sim": 0.18455320772497327
+      },
+      "er": {
+        "text": "a professional dancer",
+        "process_sim": 0.243267498190272,
+        "entity_sim": 0.18153443624155513,
+        "person_sim": 0.399280217629138,
+        "degree_sim": 0.16551005130320814
+      },
+      "noun": {
+        "text": "a beautiful dance",
+        "process_sim": 0.29943983824848047,
+        "entity_sim": 0.2449429468120845,
+        "person_sim": 0.2763036222537146,
+        "degree_sim": 0.231639335793909
+      },
+      "copula": {
+        "text": "what is dance",
+        "process_sim": 0.1850425269005807,
+        "entity_sim": 0.1821056074170315,
+        "person_sim": 0.1429203799491207,
+        "degree_sim": 0.15108899828303451
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.5082318692154506,
+      "verb-er": 0.5322848900147313,
+      "verb-noun": 0.6767251154042262,
+      "verb-copula": 0.46374090208864116,
+      "ing-er": 0.5200978718774706,
+      "ing-noun": 0.5572592728845547,
+      "ing-copula": 0.38035843090749794,
+      "er-noun": 0.5697517572071598,
+      "er-copula": 0.42192883426676253,
+      "noun-copula": 0.5247960275822089
+    }
+  },
+  {
+    "concept": "swim",
+    "type": "visible",
+    "forms": {
+      "verb": {
+        "text": "to swim in the ocean",
+        "process_sim": 0.24429011604131928,
+        "entity_sim": 0.15106831432007733,
+        "person_sim": 0.1756741370223498,
+        "degree_sim": 0.17194022128138298
+      },
+      "ing": {
+        "text": "swimming in the pool",
+        "process_sim": 0.2799223466146419,
+        "entity_sim": 0.12365427558898483,
+        "person_sim": 0.16200783309735792,
+        "degree_sim": 0.20709440824406752
+      },
+      "er": {
+        "text": "an olympic swimmer",
+        "process_sim": 0.2106080591491966,
+        "entity_sim": 0.16541324641157096,
+        "person_sim": 0.3400426601503112,
+        "degree_sim": 0.183069966457368
+      },
+      "noun": {
+        "text": "a morning swim",
+        "process_sim": 0.2594866733871425,
+        "entity_sim": 0.19438292424530534,
+        "person_sim": 0.19459900368353,
+        "degree_sim": 0.22847176261690447
+      },
+      "copula": {
+        "text": "what is swimming",
+        "process_sim": 0.2215553797326365,
+        "entity_sim": 0.16617992801162823,
+        "person_sim": 0.11514162512495299,
+        "degree_sim": 0.17181350950545834
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.5726115891681749,
+      "verb-er": 0.45733506955563136,
+      "verb-noun": 0.5504275856369529,
+      "verb-copula": 0.44541401831194394,
+      "ing-er": 0.5102818720469929,
+      "ing-noun": 0.6161299512383958,
+      "ing-copula": 0.5961379204639765,
+      "er-noun": 0.5098082649372411,
+      "er-copula": 0.44964697994065145,
+      "noun-copula": 0.48130586288922195
+    }
+  },
+  {
+    "concept": "climb",
+    "type": "visible",
+    "forms": {
+      "verb": {
+        "text": "to climb the mountain",
+        "process_sim": 0.2018301774097981,
+        "entity_sim": 0.11576327057243745,
+        "person_sim": 0.15959314564854676,
+        "degree_sim": 0.1642241432302284
+      },
+      "ing": {
+        "text": "climbing the steep rock",
+        "process_sim": 0.2885905125385916,
+        "entity_sim": 0.15281266228783685,
+        "person_sim": 0.18946301593474807,
+        "degree_sim": 0.23827538156420236
+      },
+      "er": {
+        "text": "a skilled climber",
+        "process_sim": 0.24720194273558047,
+        "entity_sim": 0.20364847327983246,
+        "person_sim": 0.40290316541508503,
+        "degree_sim": 0.26469135907603086
+      },
+      "noun": {
+        "text": "a difficult climb",
+        "process_sim": 0.2734450705843325,
+        "entity_sim": 0.1830973978286439,
+        "person_sim": 0.19881190197432067,
+        "degree_sim": 0.313328405020114
+      },
+      "copula": {
+        "text": "what is climbing",
+        "process_sim": 0.2868976228051771,
+        "entity_sim": 0.1616540057813539,
+        "person_sim": 0.16153176763135393,
+        "degree_sim": 0.2059499504492688
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.6304032415668627,
+      "verb-er": 0.4916597286482875,
+      "verb-noun": 0.6217285186957384,
+      "verb-copula": 0.5402270426664167,
+      "ing-er": 0.6183378993155367,
+      "ing-noun": 0.7072225686426575,
+      "ing-copula": 0.6348623577333967,
+      "er-noun": 0.6105848527446365,
+      "er-copula": 0.5846957679060437,
+      "noun-copula": 0.577314482503896
+    }
+  },
+  {
+    "concept": "cook",
+    "type": "visible",
+    "forms": {
+      "verb": {
+        "text": "to cook a delicious meal",
+        "process_sim": 0.17796185892025815,
+        "entity_sim": 0.12070328230693776,
+        "person_sim": 0.18576910653429402,
+        "degree_sim": 0.1261636169772452
+      },
+      "ing": {
+        "text": "cooking dinner tonight",
+        "process_sim": 0.2638423175589527,
+        "entity_sim": 0.10411870557564731,
+        "person_sim": 0.1870518233062389,
+        "degree_sim": 0.09992051331365936
+      },
+      "er": {
+        "text": "a talented cook",
+        "process_sim": 0.19554705992017726,
+        "entity_sim": 0.19472072274961236,
+        "person_sim": 0.3696372038056577,
+        "degree_sim": 0.20382762334503157
+      },
+      "noun": {
+        "text": "italian cooking",
+        "process_sim": 0.21954298393702482,
+        "entity_sim": 0.16033921641065724,
+        "person_sim": 0.15507513033782974,
+        "degree_sim": 0.17035401150147345
+      },
+      "copula": {
+        "text": "what is cooking",
+        "process_sim": 0.3206029138814871,
+        "entity_sim": 0.16899770004718245,
+        "person_sim": 0.1718204976872794,
+        "degree_sim": 0.17556836886207278
+      }
+    },
+    "pairwise": {
+      "verb-ing": 0.5766658186418453,
+      "verb-er": 0.5913782009974828,
+      "verb-noun": 0.4887220292135125,
+      "verb-copula": 0.5368590496577678,
+      "ing-er": 0.4953292316245117,
+      "ing-noun": 0.5449672242664847,
+      "ing-copula": 0.5459891241203163,
+      "er-noun": 0.4902796034726728,
+      "er-copula": 0.46723604385861084,
+      "noun-copula": 0.5844750352241934
+    }
+  }
+]
