@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Embedding APIs (Study 2)
+openai>=1.0
+google-generativeai>=0.3
+
+# Environment variable handling (.env file)
+python-dotenv>=1.0
+
+# Excel reader (for Brysbaert et al. 2014 concreteness ratings)
+openpyxl>=3.1
